@@ -1,39 +1,64 @@
-<DOCTYPE html>
-    <html Lang="en">
+<!DOCTYPE html>
+<html>
     <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
-        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-        
+        <meta http-equiv="content-type" content="text/html"; charset="UTF-8" />
+        <title> Untitled Documeent </title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
-        <link rel="stylesheet" href="styles.css"/>     
-        <title>  Datails form</title>
+        <link href="login.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/com/css?family=Play" rel="stylesheet">
         
-        </head>
-        <body>
-            <form>
-            <div class="field-name">
+    </head>
+    <body>
+        <div class="container">
+        <form>
+             <div class="login-button">
+                <a href=""><input type="button"value="Login In"></a><br><br>
+            </div>
+            <div class="sign-button">
+                <a href=""><input type="button"value="Sign Up"></a><br><br>
+            </div>
+            
+             <div class="field-name">
                 <i class="fas fa-user"></i>
                 <input type="text" placeholder="Username" required />
-                <i class="fas fa-arrow-right"></i>
+                
                 </div>
-            <div class="field-email innactive">
+                
+            <div class="field-email ">
                 <i class="fas fa-arrow-right"></i>
-                <input type="email" placeholder="Enter your Email" required />
-                <i class="fas fa-arrow-down"></i>
-                </div>
-            <div class="field-password innactive">
+                <input type="email" placeholder="Enter your Email" required />               
+            </div>
+            <div class="field-password ">
                 <i class="fas fa-key"></i>
                 <input type="password" placeholder="Enter your Password" required/>
                 </div>
-            <div class="field-finish innactive">
-                <p>Thank you!</p>
-                
+            <div class="field-password-re">
+                <i class="fas fa-key"></i>
+                <input type="password" placeholder="Renter your Password" required/>
                 </div>
-            <div class="field-start-date innactive">
+                           
+            <div class="field-start-date">
+                <i class="fas fa-calendar-alt"></i>
                 <input type="date" placeholder="Enter your start Date" required/>
                 </div>
-            </form>
-            <script src="app.js"></script>
+            <div class="submit-button">
+                <a href=""><input type="button"value="Submit"></a><br><br>
+            </div>
             
-        </body>
+           <!-- <h2 style="color: white">Log In</h2>
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="pass" placeholder="Password">
+            <a href=""><input type="button"value="Log In"></a><br><br>
+            <a href=""><input type="button"value="Log In"></a><br><br>
+            <div id="container">
+            <a href="#" style=" margin-right: 0px; font-size:13px; font-family:Tahoma, Geneva, sans-serif;">Reset password</a>
+            
+            <a href="#" style=" margin-right: 0px; font-size:13px; font-family:Tahoma, Geneva, sans-serif;">Reset password</a>
+            </div><br><br><br><br><br>
+            
+            Don't have account?< a href="#">&nbsp; Sign Up</a>
+-->
+            </form>
+        </div>
+    </body>
+</html> 
