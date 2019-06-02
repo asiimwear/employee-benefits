@@ -98,5 +98,7 @@ nav-link .text {
 nav-link.hover .icon, nav-link.hover .text, nav-link.ative .icon, nav-link.ative .text {
   @exrend .text-mattRed;
 }
-
+#show-onclick{
+    display: none;
+}
 /*# sourceMappingURL=dashbord-style.css.map */
